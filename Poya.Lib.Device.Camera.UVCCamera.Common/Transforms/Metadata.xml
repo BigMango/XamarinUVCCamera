@@ -1,0 +1,41 @@
+﻿<metadata>
+  // https://forums.xamarin.com/discussion/39150/aar-binding-error-duplicate-global-android-runtime-register-attribute
+  <attr path="/api/package[@name='com.serenegiant.media']/interface[@name='IRecorder']" name="managedName">IRecorder</attr>
+  <attr path="/api/package[@name='com.serenegiant.mediaeffect']/interface[@name='IEffect']" name="managedName">IEffect</attr>
+
+  <attr path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='entrySet' and count(parameter)=0]" name="managedReturn">System.Collections.ICollection</attr>
+
+  // Metadata.xml XPath method reference: path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='get' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
+  <attr path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='get' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" name="managedReturn">Java.Lang.Object</attr>
+
+  // Metadata.xml XPath method reference: path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='remove' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
+  <attr path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='remove' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" name="managedReturn">Java.Lang.Object</attr>
+
+  // Metadata.xml XPath method reference: path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='values' and count(parameter)=0]"
+  <attr path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='values' and count(parameter)=0]" name="managedReturn">System.Collections.ICollection</attr>
+
+  // Metadata.xml XPath method reference: path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='put' and count(parameter)=2 and parameter[1][@type='K'] and parameter[2][@type='java.util.Collection&lt;V&gt;']]"
+  <attr path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='put' and count(parameter)=2 and parameter[1][@type='K'] and parameter[2][@type='java.util.Collection&lt;V&gt;']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='put' and count(parameter)=2 and parameter[1][@type='K'] and parameter[2][@type='java.util.Collection&lt;V&gt;']]" name="managedReturn">Java.Lang.Object</attr>
+  <!--<attr path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='put' and count(parameter)=2 and parameter[1][@type='K'] and parameter[2][@type='java.util.Collection&lt;V&gt;']]" name="managedReturn">Object</attr>-->
+
+
+  <attr path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']/method[@name='put' and count(parameter)=2 and parameter[1][@type='K'] and parameter[2][@type='java.util.Collection&lt;V&gt;']]/parameter[2]" name="managedType">Java.Lang.Object</attr>
+
+  // Metadata.xml XPath method reference: path="/api/package[@name='com.serenegiant.mediaeffect']/class[@name='MediaEffect']/method[@name='resize' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]"
+  // Metadata.xml XPath method reference: path="/api/package[@name='com.serenegiant.mediaeffect']/class[@name='MediaEffectGLESBase']/method[@name='resize' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]"
+  https://www.codeproject.com/Articles/1190167/Xamarin-Forms-Android-Using-J-V-to-Execute-JavaSc
+  <attr path="/api/package[@name='com.serenegiant.mediaeffect']/class[@name='MediaEffect']/method[@name='resize' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]" name="managedReturn">Com.Serenegiant.Mediaeffect.IEffect</attr>
+  <attr path="/api/package[@name='com.serenegiant.mediaeffect']/class[@name='MediaEffectGLESBase']/method[@name='resize' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]" name="managedReturn">Com.Serenegiant.Mediaeffect.IEffect</attr>
+
+  <remove-node path="/api/package[@name='com.serenegiant.widget']/class[@name='AspectScaledTextureView']/method[@name='setSurfaceTextureListener' and count(parameter)=1 and parameter[1][@type='android.view.TextureView.SurfaceTextureListener']]" />
+
+  <remove-node path="/api/package[@name='com.serenegiant.utils']/class[@name='CollectionMap']" />
+
+  <remove-node path="/api/package[@name='com.serenegiant.widget']/interface[@name='CustomRecycleViewListener']" />
+
+  <remove-node path="/api/package[@name='com.serenegiant.glutils']/class[@name='EGLBase10']" />
+  <remove-node path="/api/package[@name='com.serenegiant.glutils']/class[@name='EGLBase14']" />
+
+
+</metadata>

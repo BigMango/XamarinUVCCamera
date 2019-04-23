@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poya.Lib.Device.Camera.UVCCamera.Common", "Poya.Lib.Device.Camera.UVCCamera.Common\Poya.Lib.Device.Camera.UVCCamera.Common.csproj", "{BD41F36C-0951-430E-84EC-EA1B0DDE5B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUVCCamera", "AppUVCCamera\AppUVCCamera.csproj", "{27AB4E8A-5901-43F9-AB90-E403EFF25A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poya.Lib.Device.Camera.UVCCamera.Usb", "Poya.Lib.Device.Camera.UVCCamera.Usb\Poya.Lib.Device.Camera.UVCCamera.Usb.csproj", "{A0AD28ED-3408-4ED1-AB35-CCE183C1FC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poya.Lib.Device.Camera.UVCCamera", "Poya.Lib.Device.Camera.UVCCamera\Poya.Lib.Device.Camera.UVCCamera.csproj", "{5F785EAD-1E83-415D-8453-28E0BDA4D057}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD41F36C-0951-430E-84EC-EA1B0DDE5B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD41F36C-0951-430E-84EC-EA1B0DDE5B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD41F36C-0951-430E-84EC-EA1B0DDE5B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD41F36C-0951-430E-84EC-EA1B0DDE5B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AB4E8A-5901-43F9-AB90-E403EFF25A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AB4E8A-5901-43F9-AB90-E403EFF25A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AB4E8A-5901-43F9-AB90-E403EFF25A0A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{27AB4E8A-5901-43F9-AB90-E403EFF25A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AB4E8A-5901-43F9-AB90-E403EFF25A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AB4E8A-5901-43F9-AB90-E403EFF25A0A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A0AD28ED-3408-4ED1-AB35-CCE183C1FC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0AD28ED-3408-4ED1-AB35-CCE183C1FC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0AD28ED-3408-4ED1-AB35-CCE183C1FC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0AD28ED-3408-4ED1-AB35-CCE183C1FC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F785EAD-1E83-415D-8453-28E0BDA4D057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F785EAD-1E83-415D-8453-28E0BDA4D057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F785EAD-1E83-415D-8453-28E0BDA4D057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F785EAD-1E83-415D-8453-28E0BDA4D057}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AE73EE0-D531-4FCC-B972-CCB4076F6A1A}
+	EndGlobalSection
+EndGlobal
